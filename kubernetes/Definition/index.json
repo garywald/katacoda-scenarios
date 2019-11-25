@@ -30,9 +30,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor"
   },
   "backend": {
-    "imageid": "kubernetes-cluster"
   }
 }
