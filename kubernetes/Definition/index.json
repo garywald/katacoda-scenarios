@@ -30,8 +30,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor"
+    "uilayout": "editor-terminal"
   },
   "backend": {
+    "imageid": "minikube"
   }
 }
