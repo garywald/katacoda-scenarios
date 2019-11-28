@@ -8,9 +8,7 @@ Nous pouvons lancer minikube
 
 `minikube start --wait=false`{{execute}}
 
-Une fois que votre environnement est monté, vous avez un cluster kubernetes d'un noeud installé. Nous utiliserons le CLI pour interragir dessus ainsi qu'avec l'applicatif que l'on déploiera après. Le CLI s'utilise avec la commande
-
-`kubectl`
+Une fois que votre environnement est monté, vous avez un cluster kubernetes d'un noeud installé. Nous utiliserons le CLI pour interragir dessus ainsi qu'avec l'applicatif que l'on déploiera après. Le CLI s'utilise avec la commande `kubectl`
 
 Exemple : Les détails concernant le cluster sont consultable en tapant la commande suivante :
 

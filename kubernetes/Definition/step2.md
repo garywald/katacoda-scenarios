@@ -8,6 +8,7 @@ Regardons notre déploiement généré :
 
 `kubectl get pods`{{execute}}
 
-Pour voir ce qui se déroule dans un container et donc afficher sa sortie standard, nous utiliserons la commandes logs
+Il s'agit ici d'un container qui n'execute qu'une commande echo. Il ne restera donc pas up, on peut se baser pour son execution au nombre de restarts.
+Pour voir ce qui se déroule dans un container et donc afficher sa sortie standard, nous utiliserons la commande `logs`
 
-`kubectl logs -f first-deployement --all-containers`{{execute}}
+`kubectl logs -l app=first-deployment --tail 100`{{execute}}
