@@ -1,20 +1,20 @@
 {
-  "title": "Definition",
-  "description": "What is Kubernetes",
+  "title": "Introduction à Kubernetes",
+  "description": "Comment ça fonctionne kubernetes ?",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Installation de l'environnement",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Mon premier déploiement",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Mon premier service",
         "text": "step3.md"
       },
       {
