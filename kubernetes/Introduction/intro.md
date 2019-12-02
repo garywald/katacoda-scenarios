@@ -5,7 +5,9 @@ Petit tutoriel de prise en main d'un cluster kubernetes par minikube pour se fam
 Vous apprendrez ici à :
 
 - Lancer [Minikube](https://github.com/kubernetes/minikube)
-- Créer un cluster Kubernetes basic
-- Lancer un container
-- Répliquer ce container
+- Requêter kubernetes
+- Lancer un déploiement
+- Répliquer le déploiement
+- Exposer ce déploiement
 - Tester la haute disponibilité du bousin
+- Faire un rolling-upgrade

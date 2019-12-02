@@ -4,21 +4,23 @@ Par simplicité, nous allons exécuter notre cluster sur un environnement miniku
 
 `minikube version`{{execute T1}}
 
+Nous pouvons voir que minikube est installé mais pas lancé.
+
 `minikube status`{{execute T1}}
 
-Nous pouvons lancer minikube
+Nous pouvons lancer minikube.
 
 `minikube start --wait=false`{{execute T1}}
 
 `minikube status`{{execute T1}}
 
-Une fois que votre environnement est monté, vous avez un cluster kubernetes d'un noeud installé. Nous utiliserons le CLI pour interragir dessus ainsi qu'avec l'applicatif que l'on déploiera après. Le CLI s'utilise avec la commande `kubectl`
+Une fois que votre environnement est monté, vous avez un cluster kubernetes qui comporte un node. Nous utiliserons le CLI pour interragir avec kubernetes. Le CLI s'utilise avec la commande `kubectl` qui vous permettra d'interragir avec le cluster pour déployer, regarder et manager vos ressources.
 
 Exemple : Les détails concernant le cluster sont consultable en tapant la commande suivante :
 
 `kubectl cluster-info`{{execute T1}}
 
-Nous pouvons consulter les nodes utilisés par le cluster via :
+Nous pouvons consulter les nodes du cluster via :
 
 `kubectl get nodes`{{execute T1}}
 

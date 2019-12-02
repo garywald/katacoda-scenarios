@@ -1,10 +1,10 @@
 ## Provisionning de notre Cluster
 
-Pour la suite du tutoriel, nous allons regarder ce qu'il se passe au niveau de mes pods en continue sur le deuxième terminal
+Pour la suite du tutoriel, nous allons regarder ce qu'il se passe au niveau de mes pods en continue sur un deuxième terminal
 
 `watch -n 1 kubectl get pods`{{execute T2}}
 
-Nous pouvons lancer notre premier déploiement sur le cluster en utilisant la commande create
+Nous pouvons lancer notre premier déploiement sur le cluster en utilisant la commande create ou run
 
 `kubectl create deployment first-deployment --image=garywald/docker-whale`{{execute T1}}
 

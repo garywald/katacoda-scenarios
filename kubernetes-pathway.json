@@ -1,11 +1,11 @@
 {
   "title": "Kubernetes",
-  "description": "Introduction to Kubernetes",
+  "description": "Introduction à Kubernetes",
   "courses": [
     {
-      "course_id": "Definition",
-      "title": "Definition",
-      "description": "What is Kubernetes"
+      "course_id": "Introduction",
+      "title": "Introduction à Kubernetes",
+      "description": "Comment ça marche Kubernetes ?"
     }
   ]
 }
